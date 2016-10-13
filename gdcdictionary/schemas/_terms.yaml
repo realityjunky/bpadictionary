@@ -235,6 +235,17 @@ ann_arbor_b_symptoms:
     cde_version: 1.0
     term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=2902402&version=1.0"
 
+ann_arbor_clinical_stage:
+  description: >
+    The classification of the clinically confirmed anatomic disease extent of lymphoma (Hodgkin's
+    and Non-Hodgkins) based on the Ann Arbor Staging System.
+  termDef:
+    term: Ann Arbor Clinical Stage
+    source: null
+    cde_id: null
+    cde_version: null
+    term_url: null
+
 ann_arbor_extranodal_involvement:
   description: >
     Indicator that identifies whether a patient with malignant lymphoma has lymphomatous involvement
@@ -245,6 +256,17 @@ ann_arbor_extranodal_involvement:
     cde_id: 3364582
     cde_version: 1.0
     term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=3364582&version=1.0"
+
+ann_arbor_pathologic_stage:
+  description: >
+    The classification of the pathologically confirmed anatomic disease extent of lymphoma
+    (Hodgkin's and Non-Hodgkins) based on the Ann Arbor Staging System.
+  termDef:
+    term: Ann Arbor Pathologic Stage
+    source: null
+    cde_id: null
+    cde_version: null
+    term_url: null
 
 ann_arbor_tumor_stage:
   description: >
@@ -316,6 +338,18 @@ cigarettes_per_day:
     cde_version: 4.0
     term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=2001716&version=4.0"
 
+circumferential_resection_margin:
+  description: >
+    A value in millimeters indicating the measured length between a malignant lesion of the
+    colon or rectum and the nearest radial (or circumferential) border of tissue removed during
+    cancer surgery.
+  termDef:
+    term: Colorectal Surgical Margin Circumferential Distance Measurement
+    source: caDSR
+    cde_id: 64202
+    cde_version: 3.0
+    term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=64202&version=3.0"
+
 classification_of_tumor:
   description: >
     Text that describes the kind of disease present in the tumor specimen as related to a specific
@@ -326,6 +360,17 @@ classification_of_tumor:
     cde_id: 3288124
     cde_version: 1.0
     term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=3288124&version=1.0"
+
+colon_polyps_history:
+  description: >
+    Yes/No indicator to describe if the subject had a previous history of colon polyps as noted
+    in the history/physical or previous endoscopic report (s).
+  termDef:
+    term: Colon Carcinoma Polyp Occurrence Indicator
+    source: caDSR
+    cde_id: 3107197
+    cde_version: 1.0
+    term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=3107197&version=1.0"
 
 composition:
   description: >
@@ -631,6 +676,17 @@ hiv_status:
     cde_id: 2180464
     cde_version: 1.0
     term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=2180464&version=1.0"
+
+hpv_positive_type:
+  description: >
+    Text classification to represent the strain or type of human papillomavirus identified in an
+    individual.
+  termDef:
+    term: Human Papillomavirus Type
+    source: caDSR
+    cde_id: 2922649
+    cde_version: 1.0
+    term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=2922649&version=1.0"
 
 hpv_status:
   description: >
@@ -1023,6 +1079,17 @@ percent_tumor_nuclei:
     cde_version: 1.0
     term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=2841225&version=1.0"
 
+perineural_invasion_present:
+  description: >
+    a yes/no indicator to ask if perineural invasion or infiltration of tumor or cancer is
+    present.
+  termDef:
+    term: Tumor Perineural Invasion Ind
+    source: caDSR
+    cde_id: 64181
+    cde_version: 3.0
+    term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=64181&version=3.0"
+
 platform: # TOREVIEW
   description: >
     Name of the platform used to obtain data.
@@ -1366,6 +1433,37 @@ to_trim_adapter_sequence: # TOREVIEW
   description: >
     Does the user suggest adapter trimming?
 
+tobacco_smoking_onset_year:
+  description: >
+    The year in which the participant began smoking.
+  termDef:
+    term: Started Smoking Year
+    source: caDSR
+    cde_id: 2228604
+    cde_version: 1.0
+    term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=2228604&version=1.0"
+
+tobacco_smoking_quit_year:
+  description: >
+    The year in which the participant quit smoking.
+  termDef:
+    term: Stopped Smoking Year
+    source: caDSR
+    cde_id: 2228610
+    cde_version: 1.0
+    term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=2228610&version=1.0"
+
+tobacco_smoking_status:
+  description: >
+    Category describing current smoking status and smoking history as self-reported by a
+    patient.
+  termDef:
+    term: Patient Smoking History Category
+    source: caDSR
+    cde_id: 2181650
+    cde_version: 1.0
+    term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=2181650&version=1.0"
+
 total_sequences: 
   description: >
     A count of the total number of sequences processed.
@@ -1483,6 +1581,17 @@ UUID:
     cde_id: C54100
     cde_version: null
     term_url: "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=16.02d&ns=NCI_Thesaurus&code=C54100"
+
+vascular_invasion_present:
+  description: >
+    The yes/no indicator to ask if large vessel or venous invasion was detected by surgery or
+    presence in a tumor specimen.
+  termDef:
+    term: Tumor Vascular Invasion Ind-3
+    source: caDSR
+    cde_id: 64358
+    cde_version: 3.0
+    term_url: "https://cdebrowser.nci.nih.gov/CDEBrowser/search?elementDetails=9&FirstTimer=0&PageId=ElementDetailsGroup&publicId=64358&version=3.0"
 
 vital_status:
   description: >

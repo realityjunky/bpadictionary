@@ -450,7 +450,7 @@ properties:
       $ref: "_terms.yaml#/days_to_sample_procurement"
     type: integer
   diagnosis_pathologically_confirmed:
-    term: 
+    term:
       ref: "_terms.yaml#/diagnosis_pathologically_confirmed"
     enum:
       - "Yes"
@@ -482,59 +482,59 @@ properties:
     term:
       $ref: "_terms.yaml#/method_of_sample_procurement"
     enum:
-      - Abdomino-perineal Resection of Rectum 
-      - Anterior Resection of Rectum 
-      - Aspirate 
+      - Abdomino-perineal Resection of Rectum
+      - Anterior Resection of Rectum
+      - Aspirate
       - Biopsy
-      - Blood Draw 
-      - Bone Marrow Aspirate 
-      - Core Biopsy 
+      - Blood Draw
+      - Bone Marrow Aspirate
+      - Core Biopsy
       - Cystectomy
-      - Endo Rectal Tumor Resection 
-      - Endoscopic Biopsy 
-      - Endoscopic Mucosal Resection (EMR) 
-      - Enucleation 
-      - Excisional Biopsy 
-      - Fine Needle Aspiration 
-      - Full Hysterectomy 
-      - Gross Total Resection 
-      - Hand Assisted Laparoscopic Radical Nephrectomy 
-      - Hysterectomy NOS 
-      - Incisional Biopsy 
-      - Indeterminant 
-      - Laparoscopic Biopsy 
-      - Laparoscopic Partial Nephrectomy 
-      - Laparoscopic Radical Nephrectomy 
-      - Laparoscopic Radical Prostatectomy with Robotics 
-      - Laparoscopic Radical Prostatectomy without Robotics 
-      - Left Hemicolectomy 
-      - Lobectomy 
-      - Local Resection (Exoresection; wall resection) 
-      - Lumpectomy 
-      - Modified Radical Mastectomy 
-      - Needle Biopsy 
-      - Open Craniotomy 
-      - Open Partial Nephrectomy 
-      - Open Radical Nephrectomy 
-      - Open Radical Prostatectomy 
-      - Orchiectomy 
-      - Other  
-      - Other Surgical Resection 
-      - Pan-Procto Colectomy 
-      - Pneumonectomy 
-      - Right Hemicolectomy 
+      - Endo Rectal Tumor Resection
+      - Endoscopic Biopsy
+      - Endoscopic Mucosal Resection (EMR)
+      - Enucleation
+      - Excisional Biopsy
+      - Fine Needle Aspiration
+      - Full Hysterectomy
+      - Gross Total Resection
+      - Hand Assisted Laparoscopic Radical Nephrectomy
+      - Hysterectomy NOS
+      - Incisional Biopsy
+      - Indeterminant
+      - Laparoscopic Biopsy
+      - Laparoscopic Partial Nephrectomy
+      - Laparoscopic Radical Nephrectomy
+      - Laparoscopic Radical Prostatectomy with Robotics
+      - Laparoscopic Radical Prostatectomy without Robotics
+      - Left Hemicolectomy
+      - Lobectomy
+      - Local Resection (Exoresection; wall resection)
+      - Lumpectomy
+      - Modified Radical Mastectomy
+      - Needle Biopsy
+      - Open Craniotomy
+      - Open Partial Nephrectomy
+      - Open Radical Nephrectomy
+      - Open Radical Prostatectomy
+      - Orchiectomy
+      - Other
+      - Other Surgical Resection
+      - Pan-Procto Colectomy
+      - Pneumonectomy
+      - Right Hemicolectomy
       - Sigmoid Colectomy
       - Simple Mastectomy
-      - Subtotal Resection 
-      - Surgical Resection 
-      - Thoracoscopic Biopsy 
+      - Subtotal Resection
+      - Surgical Resection
+      - Thoracoscopic Biopsy
       - Total Colectomy
-      - Total Mastectomy 
-      - Transplant 
-      - Transurethral resection (TURBT) 
-      - Transverse Colectomy 
-      - Tumor Resection 
-      - Wedge Resection  
+      - Total Mastectomy
+      - Transplant
+      - Transurethral resection (TURBT)
+      - Transverse Colectomy
+      - Tumor Resection
+      - Wedge Resection
       - Unknown
       - Not Reported
       - Not Allowed To Collect
