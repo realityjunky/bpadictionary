@@ -27,6 +27,7 @@ required:
 
 uniqueKeys:
   - [ id ]
+  - [ submitter_id ]
   - [ code ]
 
 links:
@@ -49,9 +50,14 @@ properties:
   name:
     type: string
     description: "Display name/brief description for the project." # TOREVIEW
+  dbgap_accession_number:
+    type: string
+    description: "The dbgap accession number provided for the program."
   code:
     type: string
     description: "Unique identifier for the project."
+  submitter_id:
+    type: string
   investigator_name:
     description: "Name of the principal investigator for the project."
     type: string
